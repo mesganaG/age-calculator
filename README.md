@@ -39,7 +39,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL here](https://www.frontendmentor.io/solutions/responsive-age-calculator-c14Of0Uquv)
+- Solution URL: [solution URL here]()
 - Live Site URL: [Live site here](https://mesganag.github.io/age-calculator/)
 
 ## My process
