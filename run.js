@@ -57,7 +57,7 @@ function DisplayError(elementId, elementLabelId, invalidLabelId, text) {
         invalidDay.style.cssText = "color: red; font-size: 11px; font-style: italic;  padding-top: 10px;";
 }
 
-// This function will clear the after the right input is given 
+// This function will clear error styling after the right input is given 
 function clearError(elementId, elementLabelId, invalidLabelId) {
     let invalidDay = document.getElementById(invalidLabelId);
     document.getElementById(elementId).style.cssText = "border-color:  hsl(0, 0%, 71%);";
