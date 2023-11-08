@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Inter:wght@400;600;700&family=Poppins:wght@700&family=Sometype+Mono&display=swap');
 
 *{
     margin: 0;
@@ -12,6 +12,7 @@ body {
     width: 100%;
     min-height: 100vh;
     background-color: hsl(0, 0%, 94%);
+    font-family: 'Poppins', sans-serif;
 }
 
 main {
@@ -23,7 +24,7 @@ main {
 }
 
 .container {
-    max-width: 60%;
+    max-width: 70%;
     background-color:hsl(0, 0%, 100%);
     margin: 0 auto;
     border-radius: 15px 15px 50px 15px;
@@ -36,16 +37,6 @@ main {
     max-height: 100%;
 }
 
-/* .input-container p {
-    display: none;
-    width: 100%;
-    color: red;
-    font-family: 'Inter', sans-serif;
-    font-style: italic;
-    font-size: 12px;
-    padding-top: 10px;
-
-} */
 
 .input-container input {
     width: 120px;
@@ -63,16 +54,17 @@ form {
     max-width: 100%;
     min-height: 100%;
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 .input-boxes {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     gap: 1.5rem;
-    width: 100%;
+    width: 85%;
     height: 100%;
+    
 }
 
 .label {
@@ -82,19 +74,32 @@ form {
     letter-spacing: .1rem;
     padding-bottom: 5px;
 }
+
 .button-container {
+
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
+    justify-content: space-between;
     width: 100%;
-    margin-right: 50px;
 
 }
 
+.H-line-container {
+    display: flex;
+    align-items: center;
+    width: 90%;
+
+
+}
+
+.H-line {
+    border-top: 1px solid hsl(0, 1%, 44%,.5);
+    width:100%;
+}
 .submit-btn {
     height: 70px;
     width: 70px;
-    margin-top: 80px;
+    right: 0;
     border-radius: 50%;
     border-width: 0;
     background-color: blueviolet;
@@ -141,7 +146,6 @@ img {
 }
 
 .result h1 {
-    font-family: Verdana, sans-serif;
     font-weight: bold;
     font-size: 70px;
     margin-left: 21%;
@@ -164,18 +168,22 @@ img {
     }
 
     main {
+        background-color: aquamarine;
         width:600px;
-        min-height: 100vh;
         padding-top: 100px;
         margin: 0 auto;
     }
     .container {
-        max-width: 55%;
-        background-color:hsl(0, 0%, 100%);
+        display: flex;
+        flex-direction: column;
+        max-width: 75%;
+        /* background-color:hsl(0, 0%, 100%); */
+        background-color: antiquewhite;
         border-radius: 15px 15px 70px 15px;
         margin-left: 20px;
-        margin-top: 100px;
-        padding: 10px;
+        padding: 1rem;
+        margin: 100px auto;
+        gap: 1.5rem;
         
     }
 
@@ -184,15 +192,15 @@ img {
         min-height: 100%;
         display: flex;
         justify-content: space-between;
-        flex-direction: row;
+        flex-direction: column;
     }
 
     .input-boxes {
         display: flex;
         flex-direction: row;
         gap: 1rem;
+        justify-content: space-between;
         width: 100%;
-        margin: 0;
     }
 
     .input-container {
@@ -202,9 +210,9 @@ img {
     }
 
     .input-container input {
-        max-width: 80px;
+        max-width: 100px;
         border-radius: 5px;
-        padding: 5px;
+        padding: 15px;
         padding-left: 15px;
         border: 1px solid hsl(0, 0%, 71%);
         font-size: 22px;
@@ -224,6 +232,7 @@ img {
     }
 
     .button-container {
+        background-color: black;
         width: 50%;
         margin-left: 50px;
         margin-top: 100px;
@@ -256,3 +265,4 @@ img {
     }
 
 }
+
